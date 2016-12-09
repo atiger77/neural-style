@@ -6,7 +6,7 @@
 
 其他的组件pip install就可以了，额外需要下一个vgg的模型放在程序目录中。
 
-我用的是公司Mac跑的，由于Mac是A卡不支持GPU计算所以用CPU去跑，导致电脑CPU使用率到了600%+，做这个还是建议用GPU去跑，速度会快很多很多很多的。
+>我用的是公司Mac跑的，由于Mac是A卡不支持GPU计算所以用CPU去跑，导致电脑CPU使用率到了600%+，做这个还是建议用GPU去跑，速度会快很多很多很多的。
 
 
 An implementation of [neural style][paper] in TensorFlow.
