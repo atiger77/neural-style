@@ -1,5 +1,14 @@
 # neural-style
 
+国外某大牛用Tensorflow框架写的一个CNN画风迁移的程序，简单的说就是让图片A根据图片B的画风生成图片C，在自己Mac上搭建运行成功了，我把毕加索的作品套上了梵高的星空最后生成的图片很漂亮，至少我这么认为。。最后记录下一点笔记方面其他人搭建时参考。
+
+原版的README里写的还算挺全的，依赖包和运行方式都写到位了，这个程序必须使用Google的TensorFlow框架，传送门：https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md
+
+其他的组件pip install就可以了，额外需要下一个vgg的模型放在程序目录中。
+
+我用的是公司Mac跑的，由于Mac是A卡不支持GPU计算所以用CPU去跑，导致电脑CPU使用率到了600%+，做这个还是建议用GPU去跑，速度会快很多很多很多的。
+
+
 An implementation of [neural style][paper] in TensorFlow.
 
 This implementation is a lot simpler than a lot of the other ones out there,
